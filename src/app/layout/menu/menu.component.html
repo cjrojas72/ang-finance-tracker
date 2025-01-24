@@ -1,6 +1,17 @@
-<h2 class="font-bold text-3xl">Angular Finance</h2>
-<mat-list role="list">
-  <mat-list-item role="listitem">Item 1</mat-list-item>
-  <mat-list-item role="listitem">Item 2</mat-list-item>
-  <mat-list-item role="listitem">Item 3</mat-list-item>
-</mat-list>
+<div class="nav-div p-4">
+  <h2 class="font-bold text-3xl">Angular Finance</h2>
+  <mat-list role="list">
+ 
+      <a routerLink="/home" routerLinkActive="link-active bg-pink-500 border-l-4 border-indigo-500"  ariaCurrentWhenActive="page">
+        <mat-list-item role="listitem">Overview</mat-list-item>
+      </a>
+    
+      <a routerLink="/income" routerLinkActive="link-active bg-pink-500 border-l-4 border-indigo-500" ariaCurrentWhenActive="page">
+        <mat-list-item role="listitem">Income</mat-list-item>
+      </a>
+      <a routerLink="/expenses" routerLinkActive="link-active bg-pink-500 border-l-4 border-indigo-500" ariaCurrentWhenActive="page">
+        <mat-list-item role="listitem">Expenses</mat-list-item>
+      </a>
+    
+  </mat-list>
+</div>
